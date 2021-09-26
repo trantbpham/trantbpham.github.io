@@ -7,6 +7,31 @@ body {
     border-radius: 50%;
 }
 
+.topnav {
+    background-color: rgba(245, 245, 245, 0.973);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color:rgba(0, 0, 0, 0.973);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: rgb(161, 161, 161);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgba(111, 145, 143, 0.973);
+    color: white;
+}
+
 header {
     display: flex;
     position: fixed;
